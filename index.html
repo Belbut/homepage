@@ -11,50 +11,77 @@
     <title>Homepage</title>
   </head>
   <body>
-    <nav></nav>
+    <!-- <nav></nav> -->
 
     <main>
       <header>
-          <div class="profile">
-                <img
-                src="assets/profile-sm.jpg"
-                alt="Friendly cow for profile picture"
-                srcset="
-                    assets/profile-sm.jpg 480w,
-                    assets/profile-md.jpg 1024w,
-                    assets/profile-lg.jpg 1920w
-                    "
-                sizes="
+        <div class="profile">
+          <img
+            src="assets/profile-sm.jpg"
+            alt="Friendly cow for profile picture"
+            srcset="
+              assets/profile-sm.jpg  480w,
+              assets/profile-md.jpg 1024w,
+              assets/profile-lg.jpg 1920w
+            "
+            sizes="
                     (max-width: 480px)  100vmin,
                     (max-width: 1024px) 80vmin,
                     60vmin"
-                />
+          />
           <h1>Ashley Williams</h1>
         </div>
         <div class="bibliography">
-            <h2>About me</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
-                delectus exercitationem, quasi repellendus aut dolores blanditiis
-                ullam soluta culpa ea tempore, quaerat doloribus! Rem maiores nobis
-                fugiat earum, quisquam laborum.
-            </p>
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
+            delectus exercitationem, quasi repellendus aut dolores blanditiis
+            ullam soluta culpa ea tempore, quaerat doloribus! Rem maiores nobis
+            fugiat earum, quisquam laborum.
+          </p>
         </div>
-        
+
         <nav>
-            <i class="fa-brands fa-square-github"></i>
-            <i class="fa-brands fa-square-linkedin"></i>
-            <i class="fa-brands fa-square-x-twitter"></i>
+          <i class="fa-brands fa-square-github"></i>
+          <i class="fa-brands fa-square-linkedin"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
         </nav>
       </header>
 
-      <section class="my-work"></section>
+      <section class="my-work">
+        <h2>My work</h2>
+
+        <div class="content">
+
+            <div class="card project">
+                <div class="screenchot">
+                    screenchot of project
+                </div>
+
+                <div class="description">
+                    <div class="title">
+                        <h3> Project Name </h3>
+                        <a href="">
+                            <i class="fa-brands fa-square-github"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-square-arrow-up-right"></i>
+                        </a>
+                    </div>
+
+                    <p>
+                        Lorem ipsum.<br>
+                        dolor sit amet consectetur, adipisicing elit.
+                        Modi,delectus exercitationem
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+      </section>
 
       <section class="contact-info">
-        <img
-        
-         src="assets/gang-sm.jpg"
-         alt="Pretty sunset with cows" />
+        <img src="assets/gang-sm.jpg" alt="Pretty sunset with cows" />
       </section>
     </main>
 
