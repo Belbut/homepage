@@ -16,19 +16,26 @@
     <main>
       <header>
         <div class="profile">
-          <img
-            src="assets/profile-sm.jpg"
-            alt="Friendly cow for profile picture"
-            srcset="
-              assets/profile-sm.jpg  480w,
-              assets/profile-md.jpg 1024w,
-              assets/profile-lg.jpg 1920w
-            "
-            sizes="
-                    (max-width: 480px)  100vmin,
-                    (max-width: 1024px) 80vmin,
-                    60vmin"
-          />
+          <picture>
+            <source 
+                media="(max-width: 480px)"
+                srcset="assets/profile-sm-cropped.jpg"
+                sizes="100vmin"
+            />
+            
+              <img
+                src="assets/profile-sm.jpg"
+                alt="Friendly cow for profile picture"
+                srcset="
+                  assets/profile-sm.jpg  480w,
+                  assets/profile-md.jpg 1024w,
+                  assets/profile-lg.jpg 1920w
+                "
+                sizes="
+                        (max-width: 1024px) 80vmin,
+                        60vmin"
+              />
+          </picture>
           <h1>Ashley Williams</h1>
         </div>
         <div class="bibliography">
