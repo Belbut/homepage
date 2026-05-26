@@ -1,46 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/1f5630dfcd.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/1f5630dfcd.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Homepage</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <nav></nav>
-    
+
     <main>
-        <header>
+      <header>
+          <div class="profile">
+                <img
+                src="assets/profile-sm.jpg"
+                alt="Friendly cow for profile picture"
+                srcset="
+                    assets/profile-sm.jpg 480w,
+                    assets/profile-md.jpg 1024w,
+                    assets/profile-lg.jpg 1920w
+                    "
+                sizes="
+                    (max-width: 480px)  100vmin,
+                    (max-width: 1024px) 80vmin,
+                    60vmin"
+                />
+          <h1>Ashley Williams</h1>
+        </div>
+        <div class="bibliography">
+            <h2>About me</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
+                delectus exercitationem, quasi repellendus aut dolores blanditiis
+                ullam soluta culpa ea tempore, quaerat doloribus! Rem maiores nobis
+                fugiat earum, quisquam laborum.
+            </p>
+        </div>
+        
+        <nav>
+            <i class="fa-brands fa-square-github"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+        </nav>
+      </header>
 
-        </header>
+      <section class="my-work"></section>
 
-        <section>
-
-        </section>
-
-        <section>
-
-        </section>
+      <section class="contact-info">
+        <img
+        
+         src="assets/gang-sm.jpg"
+         alt="Pretty sunset with cows" />
+      </section>
     </main>
 
     <footer>
-        <span> Created by </span>
-        <span>
-            <a href="http://github.com/Belbut" aria-label="André Belbut's GitHub profile">
-                André Belbut <i class="fa-brands fa-square-github" aria-hidden="true"></i> 
-            </a>
-        </span>
+      <span> Created by </span>
+      <span>
+        <a
+          href="http://github.com/Belbut"
+          aria-label="André Belbut's GitHub profile"
+        >
+          André Belbut
+          <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+        </a>
+      </span>
     </footer>
 
-    <i class="fa-brands fa-square-github"></i>
-    <i class="fa-brands fa-square-linkedin"></i>
-    <i class="fa-brands fa-square-x-twitter"></i>
     <i class="fa-solid fa-phone"></i>
-    <i class="fa-regular fa-envelope"></i>    
+    <i class="fa-regular fa-envelope"></i>
     <i class="fa-solid fa-envelope"></i>
     <i class="fa-solid fa-arrow-up-right-from-square"></i>
     <i class="fa-solid fa-square-arrow-up-right"></i>
-</body>
+  </body>
 </html>
