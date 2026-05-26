@@ -1,3 +1,22 @@
 body{
-    font-family:  Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.profile{
+    position: relative;
+    width: fit-content;
+}
+
+.profile img {
+    width: 100%;
+}
+
+.profile h1{
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+
+    margin: 0;
+    font-size: 48px;
+    color: white;
 }
