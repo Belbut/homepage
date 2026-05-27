@@ -9,7 +9,30 @@ main > * {
     margin-bottom: 50px;
 }
 
+.background {
+    background-color: #0891b2;
+}
+
+.angle  {
+    clip-path: polygon(0 0, 100% 0, 100% 51%, 0% 100%);
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    min-height: 500px;
+
+    margin: 0;
+    transform: translateY(-150px);
+}
+
 /* -------------- header */
+header{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 0 ;
+}
+
 .profile{
     position: relative;
     width: fit-content;
@@ -100,12 +123,12 @@ header{
     width: 100vw;
     margin-left: 0;
     margin-bottom: 0;
-    background-color: #0891b2;
 
     display: flex;
     flex-direction:column;
 }
-.contact-info{
+
+.info{
     margin-left: 10vw;
     margin-bottom: 10vw;
     padding: 5vw 0;
