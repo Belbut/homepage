@@ -51,9 +51,17 @@ header{
 }
 
 /* -------------- content */
+.my-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .card{
     box-shadow: 0 25px 25px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+
+    margin-bottom: 50px;
 }
 
 .card .screenshot{
